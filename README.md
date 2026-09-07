@@ -35,8 +35,9 @@ This fits comfortably inside the FPGA. To make this smaller image fill the full 
 
 ## Repository Setup & Compilation
 
-### 1. Generate the Image Data
+### Generate the Image Data
 You must convert a standard image into a Memory Initialization File (`.mif`) before compiling. Use the provided Python script:
 ```bash
 pip install Pillow
 python convert_image.py
+```
